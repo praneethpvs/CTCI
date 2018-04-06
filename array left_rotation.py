@@ -24,7 +24,7 @@ def array_left_rotation(a, n, k):
         print e
 
 
-n, k = map(int, raw_input().strip().split(' '))
-a = map(int, raw_input().strip().split(' '))
-answer = array_left_rotation(a, n, k);
+no, k_times = map(int, raw_input().strip().split(' '))
+list_a = map(int, raw_input().strip().split(' '))
+answer = array_left_rotation(list_a, no, k_times)
 print ' '.join(map(str, answer))
